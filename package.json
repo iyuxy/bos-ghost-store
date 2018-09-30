@@ -1,6 +1,6 @@
 {
   "name": "bos-ghost-store",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Ghost custom store plugin for Baidu Bos",
   "main": "index.js",
   "scripts": {

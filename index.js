@@ -6,7 +6,7 @@
  *     2.file.path拿到的是一个二进制的流，如果不设置Content-Type的话，BOS会直接以二进制流的方式提供，会导致图片压缩
  *     3.不能使用ES6的import语法
  *
- * @author darren
+ * @author darrenywyu@gmail.com
  */
 
 'use strict';

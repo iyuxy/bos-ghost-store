@@ -5,9 +5,13 @@ The Bos-Ghost-Store can help your store your image to [BaiduYun BOS](https://clo
 ## Requirements
 
 * Node > 6
-* ghost > 2
+* Ghost > 2
 
-*Only test in node(v6.10.0) & ghost(v2.1.4)*
+After testing, Bos-Ghost-Store works well in the following environment:
+
+1. macOS(10.12.3) & node(v6.10.0) & ghost(v2.1.3) 
+
+2. centos(7.1) & node(v6.14.3) & ghost(v2.1.3)
 
 ## Features
 * 1.support custom file prefix & suffix

@@ -26,7 +26,7 @@ cd current && npm install bos-ghost-store --save
 
 ```
 
-2. create the storage folder if it doesn't exist yet in `content`
+2.create the storage folder if it doesn't exist yet in `content`
 
 ```
 # go to the ghost workspace
@@ -36,7 +36,6 @@ cd ${your_ghost_workspace}
 mkdir -p content/adapters/storage
 
 ```
-
 3.move bos-ghost-store to `content/adapters/storage`
 
 
@@ -44,7 +43,6 @@ mkdir -p content/adapters/storage
 cp -R current/node_modules/bos-ghost-store content/adapters/storage/bos-ghost-store
 
 ```
-
 
 ## Configuration
 

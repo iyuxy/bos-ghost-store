@@ -64,7 +64,7 @@ example:
         "endpoint": "endpoint for your bucket",
         // optional
         "prefix": "image/",
-        // optional
+        // optional, stylename & command only one can take effect
         "stylename": "stylename",
         // optional
         "command": "command"

@@ -20,16 +20,20 @@ The Bos-Ghost-Store can help your store your image to [BaiduYun BOS](https://clo
 
 ```
 # go to the ghost workspace
-cd ${your_ghost_workspace}/current
+cd ${your_ghost_workspace}
 
-npm install bos-ghost-store --save
+cd current && npm install bos-ghost-store --save
 
 ```
 
 2. create the storage folder if it doesn't exist yet in `content`
 
 ```
-mkdir -p content/adapters/storage/bos-ghost-store
+# go to the ghost workspace
+
+cd ${your_ghost_workspace}
+
+mkdir -p content/adapters/storage
 
 ```
 
@@ -37,7 +41,7 @@ mkdir -p content/adapters/storage/bos-ghost-store
 
 
 ```
-cp -R node_modules/bos-ghost-store content/adapters/storage/bos-ghost-store
+cp -R current/node_modules/bos-ghost-store content/adapters/storage/bos-ghost-store
 
 ```
 

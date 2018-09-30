@@ -1,6 +1,6 @@
 {
   "name": "bos-ghost-store",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Ghost custom store plugin for Baidu Bos",
   "main": "index.js",
   "scripts": {
@@ -11,6 +11,7 @@
   "dependencies": {
     "bce-sdk-js": "^0.2.9",
     "bluebird": "^3.5.2",
+    "ghost-storage-base": "0.0.3",
     "uuid": "^3.3.2"
   }
 }

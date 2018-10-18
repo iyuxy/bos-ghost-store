@@ -64,7 +64,7 @@ Add configuration of bos-ghost-store in `config.product.json` or `config.develop
 
 example:
 
-```json
+```javascript
 "storage": {
     "active": "bos-ghost-store",
     "bos-ghost-store ": {

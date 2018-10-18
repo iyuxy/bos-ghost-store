@@ -22,7 +22,7 @@ After testing, Bos-Ghost-Store works well in the following environment:
 
 1.Install via npm
 
-```
+```shell
 # Go to the ghost workspace
 cd ${your_ghost_workspace}
 
@@ -32,7 +32,7 @@ cd current && npm install bos-ghost-store --save
 
 2.Create the storage folder if it doesn't exist yet in `content`
 
-```
+```shell
 # Go to the ghost workspace
 
 cd ${your_ghost_workspace}
@@ -43,13 +43,13 @@ mkdir -p content/adapters/storage
 3.Move bos-ghost-store to `content/adapters/storage`
 
 
-```
+```shell
 cp -R current/node_modules/bos-ghost-store content/adapters/storage/bos-ghost-store
 
 ```
 4.Install dependencies
 
-```
+```shell
 cd content/adapters/storage/bos-ghost-store
 
 npm install
@@ -64,12 +64,12 @@ Add configuration of bos-ghost-store in `config.product.json` or `config.develop
 
 example:
 
-```
+```json
 "storage": {
     "active": "bos-ghost-store",
     "bos-ghost-store ": {
         "credentials": {
-            "ak": "your access key"",
+            "ak": "your access key",
             "sk": "your secret key" 
         },
         "bucket": "bucket",

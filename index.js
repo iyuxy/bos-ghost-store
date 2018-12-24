@@ -75,8 +75,9 @@ class bosAdapter extends BaseAdapter {
     }
 
     read(file) {
+        let key = file.path.replace(this.options.origin, '');
         return new Promise((resolve, reject) => {
-            this.bosClient.getObject(this.options.bucket, file.path)
+            this.bosClient.getObject(this.options.bucket, key)
             .then(response => {
                 const content = response.body;
                 resolve(content);
